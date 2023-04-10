@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .block-md-hide {
+    display: none;
+  }
+}
+@font-face {
+  font-family: HarmonyOS;
+  /* https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径 */
+  src: url(https://cdn.jsdelivr.net/gh/coder-zhangsir/FontFace-CDN@v1.0/HarmonyOS/Sans_SC_Medium.ttf);
+}
+nav {
+  z-index: 100;
+}
+body {
+  font-family: HarmonyOS;
+}
